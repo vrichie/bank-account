@@ -22,11 +22,11 @@ const Transactions = () => {
   };
 
   return (
-    <div className="bg-white overflow-x-hidden text-black h-auto rounded-md">
+    <div className="bg-white overflow-x-scroll text-black h-auto rounded-md">
       <div>
         <div className="gap-6 pt-4 p-4">
           <h1 className="text-md pb-4">Transaction History</h1>
-          <table className="w-full bg-red-400">
+          <table className="w-full overflow-x-scroll">
             {/* <thead className="bg-blue-400 flex-1 w-full">
               <tr className="rounded-md w-full flex justify-between ">
                 <th className="table_head">Name</th>
